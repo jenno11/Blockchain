@@ -79,6 +79,20 @@ In a new terminal window, run your second node with the followng command:
 - Chain ID: Set equal to the chain ID you defined when configuring your genesis block
 - URL: Set to http://127.0.0.1:8545
 
+<img width="866" alt="Screen Shot 2021-11-07 at 4 08 37 pm" src="https://user-images.githubusercontent.com/84065878/140633929-aa275d80-912e-4fdd-99ac-159ca6c2f4e9.png">
+
+
 - After connecting to your custom network, navigate to the "View & Send" tab to initialize your transaction
 
 - Select "Keystore File" and select your first node's keystore file. The location of this file should have been saved in a previous step. Use the node password to unlock the keystore file. After unlocking, you'll arrive at a transaction page. You should see your first node's pre-funded balance on the upper right of this page:
+
+<img width="1216" alt="Screen Shot 2021-11-07 at 4 00 45 pm" src="https://user-images.githubusercontent.com/84065878/140633951-c30931cd-8181-4716-ae7e-b41a0f266019.png">
+
+Initiate a transfer from your first node to the second node:
+Enter second node address in "To Address" field.
+Enter an amount of ETH in the "Amount" field.
+Select "Send Transaction".
+Sending the transaction will prompt a dialog box at the bottom of the window that reads "Check TX Status". Click on "Check TX Status" to see the status and full details of the transaction.
+
+
+

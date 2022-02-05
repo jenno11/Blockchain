@@ -1,4 +1,4 @@
-## blockchain-homework
+## blockchain
 
 # Part 1
 I created two nodes (zbank1 & zbank2) for my testnet blockchain with the following commands:
